@@ -5,7 +5,7 @@ Simple Database
 In the Simple Database problem, you'll implement an in-memory database similar to Redis. 
 Your program will receive commands via standard input (stdin), and should write appropriate responses to standard output (stdout).
 
-#####Data Commands
+##### Data Commands
 Your database should accept the following commands:
 
 **SET name** value – Set the variable name to the value value. Neither variable names nor values will contain spaces.
@@ -40,7 +40,7 @@ NUMEQUALTO 10   1
 END
 ```
 
-#####Transaction Commands
+##### Transaction Commands
 In addition to the above data commands, your program should also support database transactions by also implementing these commands:
 
 **BEGIN** – Open a new transaction block. Transaction blocks can be nested; a BEGIN can be issued inside of an existing block.
@@ -108,6 +108,6 @@ COMMIT
 END
 ```
 
-#####Performance Considerations
+##### Performance Considerations
 
 Let's prioritize correctness insead of performance first.
