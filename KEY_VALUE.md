@@ -22,8 +22,8 @@ Commands will be fed to your program one at a time, with each command on its own
 
 ```
 INPUT	    OUTPUT
-SET ex 10   10
-GET ex
+SET ex 10   
+GET ex      10
 UNSET ex
 GET ex      NULL
 END
